@@ -23,6 +23,8 @@ public class Eje3 {
         frase = leer.nextLine();
         System.out.println("Frase ingresada en mayusculas: ");
         System.out.println(frase.toUpperCase());
+        System.out.println("Frase ingresada en minusculas: ");
+        System.out.println(frase.toLowerCase());
 
     }
     

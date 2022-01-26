@@ -27,7 +27,7 @@ public class Eje16 {
         do {
             System.out.println("Ingrese una cadena de 5 caracteres que comience con X y termine con O");
             cadena = leer.nextLine();
-            if (cadena.length()==5 && cadena.substring(0,1).equals("X") && cadena.substring(4, 5).equals("O")){
+            if (cadena.length()==5 && cadena.substring(0,1).equalsIgnoreCase("X") && cadena.substring(4, 5).equalsIgnoreCase("O")){
                 System.out.println("Correcto");
                 correctas++;
             }else if (!cadena.equals(FDE)){

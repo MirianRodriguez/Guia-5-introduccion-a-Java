@@ -22,7 +22,7 @@ public class Eje8 {
         String cadena;
         System.out.println("Ingrese 'eureka'");
         cadena = leer.nextLine();
-        if(cadena.equals("eureka")){
+        if(cadena.equalsIgnoreCase("eureka")){
             System.out.println("Correcto");
         }else{
             System.out.println("Incorrecto");
